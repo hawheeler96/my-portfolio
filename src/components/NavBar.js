@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Switcher from "../Switcher";
 
 function NavBar() {
     return (
@@ -18,6 +19,7 @@ function NavBar() {
         <Link to="/resume" className="mx-2 font-quicksand font-medium">
           Resume
         </Link>
+        <Switcher />
       </div>
     );
 }

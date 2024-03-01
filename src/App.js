@@ -11,28 +11,15 @@ import { createContext } from 'react';
  
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white transition duration-200 dark:bg-slate-400">
       <Router>
-       <NavBar />
+        <NavBar />
         <Routes>
-          <Route 
-            path="/"
-            element={<Home />}  />
-          <Route 
-            path='/about'
-            element={<About />} />
-          <Route
-            path='/projects'
-            element={<Projects />}
-          />
-          <Route 
-            path='/articles'
-            element={<Blog />}
-          />
-          <Route 
-            path='/resume'
-            element={<Resume />}
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/articles" element={<Blog />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </Router>
     </div>
