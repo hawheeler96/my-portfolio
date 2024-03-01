@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
       kalina: ["Kalina", "serif"],
-      quicksand: ["Quicksand", "sans-serif"]
+      quicksand: ["Quicksand", "sans-serif"],
     },
     extend: {},
   },
