@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { createContext } from 'react';
  
@@ -22,6 +23,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
