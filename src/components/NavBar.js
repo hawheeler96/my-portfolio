@@ -1,24 +1,39 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Switcher from "../Switcher";
 
 function NavBar() {
     return (
-      <div className="flex justify-end m-2">
-        <Link to="/" className="mx-2 font-quicksand font-medium">
+      <div className="flex justify-end p-2 font-quicksand font-medium text-xl dark:text-soft-white">
+        <NavLink
+          to="/"
+          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+        >
           Home
-        </Link>
-        <Link to="/about" className="mx-2 font-quicksand font-medium">
+        </NavLink>
+        <NavLink
+          to="/about"
+          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+        >
           About
-        </Link>
-        <Link to="/projects" className="mx-2 font-quicksand font-medium">
+        </NavLink>
+        <NavLink
+          to="/projects"
+          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+        >
           Projects
-        </Link>
-        <Link to="/articles" className="mx-2 font-quicksand font-medium">
+        </NavLink>
+        <NavLink
+          to="/articles"
+          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+        >
           Articles
-        </Link>
-        <Link to="/resume" className="mx-2 font-quicksand font-medium">
+        </NavLink>
+        <NavLink
+          to="/resume"
+          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+        >
           Resume
-        </Link>
+        </NavLink>
         <Switcher />
       </div>
     );

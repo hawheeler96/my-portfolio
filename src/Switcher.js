@@ -18,6 +18,8 @@ function Switcher() {
             checked={darkSide}
             onChange={toggleDarkMode}
             size={30}
+            sunColor='#ffc759'
+            moonColor='#e8e9ed'
           />
         </div>
       </>

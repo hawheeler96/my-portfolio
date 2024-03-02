@@ -11,7 +11,7 @@ import { createContext } from 'react';
  
 function App() {
   return (
-    <div className="min-h-screen bg-white transition duration-200 dark:bg-slate-400">
+    <div className="h-screen transition duration-200 dark:bg-midnight">
       <Router>
         <NavBar />
         <Routes>
