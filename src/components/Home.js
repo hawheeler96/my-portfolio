@@ -11,7 +11,7 @@ function Home() {
         <p className="text-2xl flex justify-center text-center pt-10 px-80 font-quicksand font-medium dark:text-soft-white">
           After five years of working in policy operations and learning &
           development, I am on a journey to become a full-time software engineer.
-           Welcome to my portfolio.
+           Welcome to my portfolio!
         </p>
       </div>
     </div>
