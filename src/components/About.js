@@ -1,4 +1,4 @@
-import hollyFillerPhoto from '../images/holly_filler_photo.png'
+import hollyFillerPhoto from '../images/website seflie.png'
 
 function About() {
     return (
@@ -6,8 +6,9 @@ function About() {
         <div className="col-start-1 p-5">
           <img
             src={hollyFillerPhoto}
+            width={450}
             alt="a young woman with curly reddish-brown hair wearing a green dress and smiling"
-            className="absolute left-96 top-64"
+            className="absolute left-96 top-20 rounded-xl shadow-xl shadow-sandblast dark:shadow-white"
           />
         </div>
         <div className="col-start-2 p-5">

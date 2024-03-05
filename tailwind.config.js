@@ -19,6 +19,7 @@ module.exports = {
       "space-cadet": "#363457",
       midnight: "#061841",
       black: "#000000",
+      sandblast: "#f5cabf"
     },
     extend: {
       boxShadow: {

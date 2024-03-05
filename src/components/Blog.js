@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 function Blog() {
     return (
       <div className="grid grid-cols-3 mt-10 dark:text-white">
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/a-beginners-guide-to-defining-an-mvp-223d424eb602">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -23,7 +23,7 @@ function Blog() {
             </Link>
           </div>
         </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/building-apis-and-restful-apis-in-flask-98b894507f76">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -49,7 +49,7 @@ function Blog() {
             </Link>
           </div>
         </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/how-making-a-choose-your-own-adventure-game-changed-my-perspective-on-python-717399c787cf">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -70,7 +70,7 @@ function Blog() {
             </Link>
           </div>
         </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/react-router-for-absolute-beginners-047e4b6c5685">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -93,7 +93,7 @@ function Blog() {
             </Link>
           </div>
         </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/but-where-do-i-even-start-af72f5cdb02d">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
