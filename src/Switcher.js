@@ -20,6 +20,7 @@ function Switcher() {
             size={30}
             sunColor='#ffc759'
             moonColor='#e8e9ed'
+            className="mx-2"
           />
         </div>
       </>

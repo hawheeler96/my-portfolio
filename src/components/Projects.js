@@ -18,12 +18,31 @@ function Projects() {
             <p className="font-medium text-xl mt-5 mb-7 font-quicksand">
               An online character creator for Dungeons & Dragons 5e
             </p>
-            <a
-              href="https://github.com/hawheeler96/tavern"
-              className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
-            >
-              View on Github
-            </a>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/hawheeler96/tavern"
+                className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
+              >
+                View on Github
+              </a>
+              <div className="flex ms-3 p-1 justify-end">
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>Flask</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>React.js</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>SQLaclhemy</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>TailwindCSS</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>RESTful API</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
@@ -37,12 +56,31 @@ function Projects() {
             <p className="font-medium text-xl mt-5 mb-7 font-quicksand">
               A no-frills online task manager
             </p>
-            <a
-              href="https://github.com/hawheeler96/TaskManager"
-              className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
-            >
-              View on Github
-            </a>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/hawheeler96/TaskManager"
+                className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
+              >
+                View on Github
+              </a>
+              <div className="flex ms-3 p-1 justify-end">
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>Flask</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>React.js</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>SQLaclhemy</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>CSS</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>RESTful API</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
@@ -58,12 +96,22 @@ function Projects() {
             <p className="font-medium text-xl mt-5 mb-7 font-quicksand">
               An escape room game run in the command line interface
             </p>
-            <a
-              href="https://github.com/hawheeler96/EscapeTheGrimReapersTower"
-              className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
-            >
-              View on Github
-            </a>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/hawheeler96/EscapeTheGrimReapersTower"
+                className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
+              >
+                View on Github
+              </a>
+              <div className="flex ms-3 p-1 justify-end">
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>Python</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>SQLite3</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white">
@@ -79,12 +127,19 @@ function Projects() {
             <p className="font-medium text-xl mt-5 mb-7 font-quicksand">
               An online calendar app
             </p>
-            <a
-              href="https://github.com/hawheeler96/slaytheday"
-              className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
-            >
-              View on Github
-            </a>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/hawheeler96/slaytheday"
+                className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
+              >
+                View on Github
+              </a>
+              <div className="flex ms-3 p-1 justify-end">
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>React.js</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
