@@ -12,7 +12,7 @@ import { createContext } from 'react';
  
 function App() {
   return (
-    <div className="h-screen transition duration-200 dark:bg-midnight">
+    <div className="h-dvh transition duration-200 dark:bg-midnight">
       <Router>
         <NavBar />
         <Routes>

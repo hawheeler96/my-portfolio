@@ -2,7 +2,7 @@ import hollyFillerPhoto from '../images/holly_filler_photo.png'
 
 function About() {
     return (
-      <div className="grid grid-cols-2 font-quicksand p-10 text-xl dark:text-soft-white">
+      <div className="grid grid-cols-2 font-quicksand font-medium p-10 text-xl dark:text-soft-white">
         <div className="col-start-1 p-5">
           <img
             src={hollyFillerPhoto}
