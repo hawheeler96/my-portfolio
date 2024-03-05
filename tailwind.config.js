@@ -17,7 +17,7 @@ module.exports = {
       "french-grey": "#babfd1",
       "soft-white": "#e8e9ed",
       "space-cadet": "#363457",
-      midnight: "#172554",
+      midnight: "#061841",
       black: "#000000",
     },
     extend: {
