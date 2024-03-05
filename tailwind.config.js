@@ -10,6 +10,7 @@ module.exports = {
       yeseva: ["Yeseva One", "serif"],
     },
     colors: {
+      white: "#ffffff",
       xanthous: "#ffc759",
       rose: "#ff7b9c",
       glaucous: "#607196",
@@ -17,8 +18,13 @@ module.exports = {
       "soft-white": "#e8e9ed",
       "space-cadet": "#363457",
       midnight: "#172554",
+      black: "#000000",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        xl: "25px 25px 0 0 rgba(0, 0, 0, 0.3)",
+      },
+    },
   },
   plugins: [],
 };
