@@ -6,7 +6,7 @@ import slayTheDay from "../images/slaytheday.png"
 function Projects() {
   return (
     <div className="min-h-screen dark:bg-midnight dark:text-white">
-      <div className="grid grid-cols-1 px-96">
+      <div className="grid grid-cols-1 md:px-20 lg:px-40 xl:px-60 2xl:px-80 3xl:px-96">
         <h1 className="text-6xl font-yeseva text-center mt-10">
           Ongoing Projects
         </h1>
@@ -28,7 +28,7 @@ function Projects() {
               >
                 View on Github
               </a>
-              <div className="flex ms-3 p-1 justify-end">
+              <div className="hidden md:flex ms-3 p-1 justify-end">
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>Flask</p>
                 </div>
@@ -41,7 +41,7 @@ function Projects() {
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>TailwindCSS</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="hidden lg:flex bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>RESTful API</p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ function Projects() {
               >
                 View on Github
               </a>
-              <div className="flex ms-3 p-1 justify-end">
+              <div className="hidden md:flex ms-3 p-1 justify-end">
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>Flask</p>
                 </div>
@@ -82,7 +82,7 @@ function Projects() {
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>CSS</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="hidden lg:flex bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>RESTful API</p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ function Projects() {
               >
                 View on Github
               </a>
-              <div className="flex ms-3 p-1 justify-end">
+              <div className="hidden md:flex ms-3 p-1 justify-end">
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>Python</p>
                 </div>
@@ -140,7 +140,7 @@ function Projects() {
               >
                 View on Github
               </a>
-              <div className="flex ms-3 p-1 justify-end">
+              <div className="hidden md:flex ms-3 p-1 justify-end">
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>React.js</p>
                 </div>

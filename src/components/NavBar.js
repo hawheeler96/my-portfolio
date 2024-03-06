@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 import Switcher from "../Switcher";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
-function NavBar() {
+const NavLinks = () => {
     return (
-      <div className="flex justify-end p-2 font-quicksand font-medium text-xl dark:text-soft-white">
+      <>
         <NavLink
           to="/"
           className="mx-2 hover:text-rose dark:hover:text-xanthous"
@@ -34,6 +36,29 @@ function NavBar() {
         >
           Resume
         </NavLink>
+      </>
+    );
+}
+function NavBar() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleNavBar = () => {
+        setIsOpen(!isOpen);
+    }
+
+    return (
+      <div className="flex justify-end p-2 font-quicksand font-medium text-xl dark:text-soft-white">
+        <div className="hidden md:flex">
+          <NavLinks />
+        </div>
+        <div className="md:hidden">
+          <button onClick={toggleNavBar}>{isOpen ? <X /> : <Menu />}</button>
+        </div>
+        {isOpen && (
+            <div className="flex basis-full flex-col items-center">
+                <NavLinks />
+            </div>
+        )}
         <Switcher />
       </div>
     );

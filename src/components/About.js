@@ -2,13 +2,13 @@ import hollyFillerPhoto from '../images/website seflie.png'
 
 function About() {
     return (
-      <div className="grid grid-cols-2 font-quicksand font-medium p-10 text-xl dark:text-soft-white">
+      <div className="grid lg:grid-cols-2 font-quicksand font-medium pb-20 lg:max-3xl:p-10 text-xl dark:text-soft-white dark:bg-midnight">
         <div className="col-start-1 p-5">
           <img
             src={hollyFillerPhoto}
             width={450}
-            alt="a young woman with curly reddish-brown hair wearing a green dress and smiling"
-            className="absolute left-96 top-20 rounded-xl shadow-xl shadow-sandblast dark:shadow-white"
+            alt="a young white woman with long wavy golden-brown hair sitting in front of a computer and smiling"
+            className="hidden lg:max-3xl:block absolute left-10 lg:left-10 xl:left-40 2xl:left-80 3xl:left-96 top-20 rounded-xl shadow-xl shadow-sandblast dark:shadow-white"
           />
         </div>
         <div className="col-start-2 p-5">
@@ -47,7 +47,11 @@ function About() {
         </div>
         <div className="col-start-2 p-5">
           <p>
-            My time in policy and training gave me a deeper appreciation and consideration for the user experience. This consideration heavily affects the way I code – making sure things are user friendly and accessible is one of my top priorities whenever I start a new project. 
+            My time in policy and training gave me a deeper appreciation and
+            consideration for the user experience. This consideration heavily
+            affects the way I code – making sure things are user friendly and
+            accessible is one of my top priorities whenever I start a new
+            project.
           </p>
         </div>
       </div>
