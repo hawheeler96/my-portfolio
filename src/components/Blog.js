@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function Blog() {
     return (
-      <div className="grid lg:max-2xl:grid-cols-2 2xl:max-3xl:grid-cols-3 mt-10 dark:text-white dark:bg-midnight">
+      <div className="grid lg:max-2xl:grid-cols-2 2xl:max-3xl:grid-cols-3 mt-2 dark:text-white dark:bg-midnight">
         <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/a-beginners-guide-to-defining-an-mvp-223d424eb602">
@@ -10,13 +10,17 @@ function Blog() {
                 A Beginner's Guide to Defining an MVP
               </h1>
               <p className="font-medium text-xl mt-5 font-quicksand">
+                A simplified guide to defining an MVP based on my project
+                experience
+              </p>
+              <p className="font-medium italic text-xl mt-5 font-quicksand">
                 4 min read
               </p>
               <div className="hidden sm:flex flex-row items-center mt-5">
-                <div className="bg-glaucous rounded-md p-1 font-quicksand text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand">
                   <p>MVPs</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Guidance</p>
                 </div>
               </div>
@@ -35,19 +39,23 @@ function Blog() {
                 Building APIs using Flask and Flask-RESTful
               </h1>
               <p className="font-medium text-xl mt-5 font-quicksand">
+                A short tutorial on how to build a RESTful API using basic Flask
+                and Flask-Restful
+              </p>
+              <p className="font-medium italic text-xl mt-5 font-quicksand">
                 9 min read
               </p>
               <div className="hidden sm:flex flex-row items-center mt-5">
-                <div className="bg-glaucous rounded-md p-1 font-quicksand text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand">
                   <p>Flask</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Flask RESTful</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Building RESTful APIs</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Tutorial</p>
                 </div>
               </div>
@@ -67,13 +75,17 @@ function Blog() {
                 perspective on Python
               </h1>
               <p className="font-medium text-xl mt-5 font-quicksand">
+                A reflection on how building a game using Python changed my
+                perspective on how coding languages can be used
+              </p>
+              <p className="font-medium italic text-xl mt-5 font-quicksand">
                 3 min read
               </p>
               <div className="hidden sm:flex flex-row items-center mt-5">
-                <div className="bg-glaucous rounded-md p-1 font-quicksand text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand">
                   <p>Python</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Personal Reflection</p>
                 </div>
               </div>
@@ -92,16 +104,19 @@ function Blog() {
                 React Router for Absolute Beginners
               </h1>
               <p className="font-medium text-xl mt-5 font-quicksand">
+                A short tutorial on using React Router v6
+              </p>
+              <p className="font-medium italic text-xl mt-5 font-quicksand">
                 6 min read
               </p>
               <div className="hidden sm:flex flex-row items-center mt-5">
-                <div className="bg-glaucous rounded-md p-1 font-quicksand text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand">
                   <p>React.js</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>React Router</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Tutorial</p>
                 </div>
               </div>
@@ -120,13 +135,16 @@ function Blog() {
                 "But where do I even start?"
               </h1>
               <p className="font-medium text-xl mt-5 font-quicksand">
+                A simplified guide on conquering blank page paralysis
+              </p>
+              <p className="font-medium italic text-xl mt-5 font-quicksand">
                 5 min read
               </p>
               <div className="hidden sm:flex items-center mt-5">
-                <div className="bg-glaucous rounded-md p-1 font-quicksand text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand">
                   <p>Problem Solving</p>
                 </div>
-                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                <div className="bg-sandblast dark:bg-glaucous rounded-md p-1 font-quicksand ms-3">
                   <p>Guidance</p>
                 </div>
               </div>
