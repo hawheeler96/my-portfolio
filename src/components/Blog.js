@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 function Blog() {
     return (
-      <div className="grid lg:max-2xl:grid-cols-2 2xl:max-3xl:grid-cols-3 mt-2 dark:text-white dark:bg-midnight">
+      <div className="grid pt-10 pb-20 lg:max-2xl:grid-cols-2 2xl:max-3xl:grid-cols-3 dark:text-white dark:bg-midnight">
         <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
           <div>
             <Link to="https://medium.com/@hollyawheeler96/a-beginners-guide-to-defining-an-mvp-223d424eb602">
