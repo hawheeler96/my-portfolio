@@ -12,15 +12,15 @@ function About() {
           />
         </div>
         <div className="col-start-2 p-5">
-          <h1 className="text-5xl font-yeseva">About Me</h1>
+          <h1 className="text-5xl pt-10 lg:max-3xl:pt-0 font-yeseva">About Me</h1>
         </div>
-        <div className="col-start-2 p-5">
+        <div className="col-start-2 p-5 pe-10">
           <p>
             Hi there! My name is Holly Wheeler, and I am a full stack software
             engineer based in Oakland, California.
           </p>
         </div>
-        <div className="col-start-2 p-5">
+        <div className="col-start-2 p-5 pe-10">
           <p>
             I started my career in tech a few months after graduating college in
             2018. I started as an ads analyst at MoPub, a subsidiary of Twitter
@@ -32,7 +32,7 @@ function About() {
             unfortunately laid off in 2023.
           </p>
         </div>
-        <div className="col-start-2 p-5">
+        <div className="col-start-2 p-5 pe-10">
           <p>
             I took this as an opportunity to re-evaluate my career path. I liked
             training and policy, but I wasn`t sure I wanted to do them forever.
@@ -45,7 +45,7 @@ function About() {
             CSS.
           </p>
         </div>
-        <div className="col-start-2 p-5">
+        <div className="col-start-2 p-5 pe-10">
           <p>
             My time in policy and training gave me a deeper appreciation and
             consideration for the user experience. This consideration heavily

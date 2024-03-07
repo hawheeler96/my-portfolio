@@ -51,7 +51,7 @@ function NavBar() {
     }
 
     return (
-      <div className="flex justify-end p-2 font-quicksand font-medium text-xl dark:text-soft-white">
+      <div className="fixed w-full flex justify-end p-2 font-quicksand font-medium text-xl bg-white dark:bg-midnight dark:text-soft-white">
         <div className="hidden md:flex">
           <NavLinks isOpen={isOpen} />
         </div>
