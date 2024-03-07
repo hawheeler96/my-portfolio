@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Home() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center dark:bg-midnight">
       <div>
         <h1 className="text-5xl xs:text-5xl sm:text-6xl md:text-8xl font-yeseva flex justify-center text-center  px-10 dark:text-soft-white">
           {" "}
