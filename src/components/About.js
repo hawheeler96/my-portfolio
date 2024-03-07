@@ -38,7 +38,7 @@ function About() {
             training and policy, but I wasn`t sure I wanted to do them forever.
             I had worked with engineers and was constantly impressed by the
             things they could build, so I decided to try a free self-paced
-            python course. That course opened my eyes to the beauty and fun of
+            Python course. That course opened my eyes to the beauty and fun of
             coding, and I couldn`t stop there. I enrolled in a full-time
             software engineering bootcamp run by Flatiron School, where I
             learned JavaScript, React, Python, and Flask, along with HTML and
