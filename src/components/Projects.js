@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="min-h-screen dark:bg-midnight dark:text-white">
       <div className="grid grid-cols-1 md:px-20 lg:px-40 xl:px-60 2xl:px-80 3xl:px-96">
-        <h1 className="text-6xl font-yeseva text-center mt-10">
+        <h1 className="text-6xl font-yeseva text-center mt-20">
           Ongoing Projects
         </h1>
         <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
