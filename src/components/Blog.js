@@ -1,9 +1,29 @@
 import {Link} from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Blog() {
     return (
       <div className="grid pt-10 pb-20 lg:max-2xl:grid-cols-2 2xl:max-3xl:grid-cols-3 dark:text-white dark:bg-midnight">
-        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "50%",
+            opacity: 0,
+            transition: {
+              duration: 0.25,
+              ease: "easeInOut",
+              delay: 0,
+            },
+          }}
+          transition={{ duration: 0.25, ease: "easeInOut", delay: 0 }}
+          whileHover={{
+            scale: 1.1,
+            translateY: -1,
+            transition: { duration: 0.1 },
+          }}
+          className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <Link to="https://medium.com/@hollyawheeler96/a-beginners-guide-to-defining-an-mvp-223d424eb602">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -31,8 +51,27 @@ function Blog() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "50%",
+            opacity: 0,
+            transition: {
+              duration: 0.25,
+              ease: "easeInOut",
+              delay: 0,
+            },
+          }}
+          transition={{ duration: 0.25, ease: "easeInOut", delay: 0 }}
+          whileHover={{
+            scale: 1.1,
+            translateY: -1,
+            transition: { duration: 0.1 },
+          }}
+          className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <Link to="https://medium.com/@hollyawheeler96/building-apis-and-restful-apis-in-flask-98b894507f76">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -66,8 +105,27 @@ function Blog() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "50%",
+            opacity: 0,
+            transition: {
+              duration: 0.25,
+              ease: "easeInOut",
+              delay: 0,
+            },
+          }}
+          transition={{ duration: 0.25, ease: "easeInOut", delay: 0 }}
+          whileHover={{
+            scale: 1.1,
+            translateY: -1,
+            transition: { duration: 0.1 },
+          }}
+          className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <Link to="https://medium.com/@hollyawheeler96/how-making-a-choose-your-own-adventure-game-changed-my-perspective-on-python-717399c787cf">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -96,8 +154,27 @@ function Blog() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "50%",
+            opacity: 0,
+            transition: {
+              duration: 0.25,
+              ease: "easeInOut",
+              delay: 0,
+            },
+          }}
+          transition={{ duration: 0.25, ease: "easeInOut", delay: 0 }}
+          whileHover={{
+            scale: 1.1,
+            translateY: -1,
+            transition: { duration: 0.1 },
+          }}
+          className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <Link to="https://medium.com/@hollyawheeler96/react-router-for-absolute-beginners-047e4b6c5685">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -127,8 +204,27 @@ function Blog() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 mb-36 2xl:max-3xl:mb-10  m-10 dark:bg-midnight dark:shadow-white transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110">
+        </motion.div>
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "50%",
+            opacity: 0,
+            transition: {
+              duration: 0.25,
+              ease: "easeInOut",
+              delay: 0,
+            },
+          }}
+          transition={{ duration: 0.25, ease: "easeInOut", delay: 0 }}
+          whileHover={{
+            scale: 1.1,
+            translateY: -1,
+            transition: { duration: 0.1 },
+          }}
+          className="border shadow-xl shadow-xanthous bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <Link to="https://medium.com/@hollyawheeler96/but-where-do-i-even-start-af72f5cdb02d">
               <h1 className="text-3xl font-bold font-yeseva mt-5">
@@ -155,7 +251,7 @@ function Blog() {
               </div>
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     );
 }
