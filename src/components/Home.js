@@ -8,7 +8,7 @@ function Home() {
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
           exit={{ y: "-100%" }}
-          transition={{ duration: 0.5, delay: 0 }}
+          transition={{ duration: 0.5}}
           className="text-5xl xs:text-5xl sm:text-6xl md:text-8xl font-yeseva flex justify-center text-center  px-10 dark:text-soft-white"
         >
           {" "}
@@ -18,7 +18,7 @@ function Home() {
           initial={{ x: "100%" }}
           animate={{ x: 0 }}
           exit={{ x: "-100%" }}
-          transition={{ duration: 0.5, delay: 0 }}
+          transition={{ duration: 0.5}}
           className="text-base md:max-3xl:text-2xl flex justify-center text-center pt-5 xs:max-3xl:pt-10 px-20 xl:max-3xl:px-80 font-quicksand font-medium dark:text-soft-white"
         >
           After five years of working in policy operations and learning &
