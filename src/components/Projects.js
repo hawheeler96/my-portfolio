@@ -2,15 +2,30 @@ import tavernPage from "../images/tavern_page.png";
 import onMyPlate from "../images/on_my_plate_page.png"
 import grimReapersTower from "../images/grim_reapers_tower.png"
 import slayTheDay from "../images/slaytheday.png"
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
     <div className="min-h-screen dark:bg-midnight dark:text-white">
-      <div className="grid grid-cols-1 md:px-20 lg:px-40 xl:px-60 2xl:px-80 3xl:px-96">
-        <h1 className="text-6xl font-yeseva text-center mt-20">
-          Ongoing Projects
-        </h1>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
+      <div className="overflow-hidden grid grid-cols-1 md:px-20 lg:px-40 xl:px-60 2xl:px-80 3xl:px-96">
+          <motion.h1
+            initial={{ y: "-100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-200%", transition: {
+                duration: 0.5
+            } }}
+            transition={{ duration: 0.5, delay: 0 }}
+            className="text-6xl font-yeseva text-center mt-20"
+          >
+            Ongoing Projects
+          </motion.h1>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <img
               src={tavernPage}
@@ -47,11 +62,23 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <h1 className="text-6xl font-yeseva text-center mt-36">
+        </motion.div>
+        <motion.h1
+          initial={{ y: "-100%" }}
+          animate={{ y: 0 }}
+          exit={{ y: "-100%" }}
+          transition={{ duration: 0.5, delay: 0 }}
+          className="text-6xl font-yeseva text-center mt-36"
+        >
           Completed Projects
-        </h1>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <img
               src={onMyPlate}
@@ -88,8 +115,14 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <img
               src={grimReapersTower}
@@ -119,8 +152,14 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white"
+        >
           <div>
             <img
               src={slayTheDay}
@@ -147,7 +186,7 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
