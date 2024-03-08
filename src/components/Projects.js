@@ -8,22 +8,31 @@ function Projects() {
   return (
     <div className="min-h-screen dark:bg-midnight dark:text-white">
       <div className="overflow-hidden grid grid-cols-1 md:px-20 lg:px-40 xl:px-60 2xl:px-80 3xl:px-96">
-          <motion.h1
-            initial={{ y: "-100%" }}
-            animate={{ y: 0 }}
-            exit={{ y: "-200%", transition: {
-                duration: 0.5
-            } }}
-            transition={{ duration: 0.5, delay: 0 }}
-            className="text-6xl font-yeseva text-center mt-20"
-          >
-            Ongoing Projects
-          </motion.h1>
+        <motion.h1
+          initial={{ y: "-100%" }}
+          animate={{ y: 0 }}
+          exit={{
+            y: "-200%",
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
+          className="text-6xl font-yeseva text-center mt-20"
+        >
+          Ongoing Projects
+        </motion.h1>
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "10px",
+            opacity: 0,
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
           className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
         >
           <div>
@@ -73,10 +82,16 @@ function Projects() {
           Completed Projects
         </motion.h1>
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "10px",
+            opacity: 0,
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
           className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
         >
           <div>
@@ -117,10 +132,16 @@ function Projects() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "10px",
+            opacity: 0,
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
           className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
         >
           <div>
@@ -154,10 +175,16 @@ function Projects() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "10px",
+            opacity: 0,
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
           className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white"
         >
           <div>

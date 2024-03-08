@@ -9,9 +9,9 @@ function About() {
             src={hollyFillerPhoto}
             width={450}
             alt="a young white woman with long wavy golden-brown hair sitting in front of a computer and smiling"
-            initial={{ x: "-100%" }}
+            initial={{ x: "-200%" }}
             animate={{ x: 0 }}
-            exit={{ x: "-100%" }}
+            exit={{ x: "-200%" }}
             transition={{ duration: 0.5, delay: 0 }}
             className="hidden lg:max-3xl:block absolute left-10 lg:left-10 xl:left-40 2xl:left-80 3xl:left-96 top-20 rounded-xl shadow-xl shadow-sandblast dark:shadow-white"
           />
