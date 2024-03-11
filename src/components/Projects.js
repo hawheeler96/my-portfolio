@@ -2,6 +2,7 @@ import tavernPage from "../images/tavern_page.png";
 import onMyPlate from "../images/on_my_plate_page.png"
 import grimReapersTower from "../images/grim_reapers_tower.png"
 import slayTheDay from "../images/slaytheday.png"
+import activityGenerator from "../images/activity_generator.png"
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -185,7 +186,7 @@ function Projects() {
             },
           }}
           transition={{ duration: 0.5, delay: 0 }}
-          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white"
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 dark:bg-midnight dark:shadow-white"
         >
           <div>
             <img
@@ -209,6 +210,55 @@ function Projects() {
               <div className="hidden md:flex ms-3 p-1 justify-end">
                 <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
                   <p>React.js</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ y: "10px", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{
+            y: "10px",
+            opacity: 0,
+            transition: {
+              duration: 0.5,
+            },
+          }}
+          transition={{ duration: 0.5, delay: 0 }}
+          className="border shadow-xl shadow-midnight bg-white rounded-3xl p-10 m-10 mb-36 dark:bg-midnight dark:shadow-white"
+        >
+          <div>
+            <img
+              src={activityGenerator}
+              alt="an image of a homepage containing 4 characters"
+              className="rounded-xl object-scale-down"
+            />
+            <h1 className="text-3xl font-bold font-yeseva mt-5">
+              Activity Generator
+            </h1>
+            <p className="font-medium text-xl mt-5 mb-7 font-quicksand">
+              A random generator for physical activities
+            </p>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/hawheeler96/activity-generator"
+                className="bg-xanthous text-xl font-quicksand font-bold p-2 rounded-md transition-colors ease-in-out delay-50 hover:bg-rose hover:text-soft-white dark:text-midnight dark:hover:text-white"
+              >
+                View on Github
+              </a>
+              <div className="hidden md:flex ms-3 p-1 justify-end">
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>JavaScript</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>HTML</p>
+                </div>
+                <div className="bg-glaucous rounded-md p-1 font-quicksand ms-3 text-white">
+                  <p>CSS</p>
                 </div>
               </div>
             </div>
