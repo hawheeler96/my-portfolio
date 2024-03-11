@@ -39,7 +39,7 @@ const NavLinks = ({ isOpen, setIsOpen, toggleNavBar }) => {
         <NavLink
           to="/resume"
           onClick={toggleNavBar}
-          className="mx-2 hover:text-rose dark:hover:text-xanthous"
+          className="mx-2 hidden md:flex hover:text-rose dark:hover:text-xanthous"
         >
           Resume
         </NavLink>
