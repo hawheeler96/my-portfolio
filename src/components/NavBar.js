@@ -52,22 +52,32 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavBar = () => {
+      if (window.innerWidth <= 768) {
         setIsOpen(!isOpen);
-    }
+      }
+    };
 
     return (
       <div className="fixed w-full flex justify-end p-2 font-quicksand font-medium text-xl z-50 bg-white dark:bg-midnight dark:text-soft-white">
         <div className="hidden md:flex">
-          <NavLinks isOpen={isOpen} setIsOpen={setIsOpen} toggleNavBar={toggleNavBar} />
+          <NavLinks
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+            toggleNavBar={toggleNavBar}
+          />
         </div>
         <div className="md:hidden">
           <button onClick={toggleNavBar}>{isOpen ? <X /> : <Menu />}</button>
         </div>
-          {isOpen && (
-            <div className="flex basis-full flex-col items-center">
-              <NavLinks isOpen={isOpen} setIsOpen={setIsOpen} toggleNavBar={toggleNavBar}/>
-            </div>
-          )}
+        {isOpen && (
+          <div className="flex basis-full flex-col items-center">
+            <NavLinks
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+              toggleNavBar={toggleNavBar}
+            />
+          </div>
+        )}
         <Switcher />
       </div>
     );
